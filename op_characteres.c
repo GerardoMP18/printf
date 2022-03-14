@@ -39,10 +39,10 @@ int op_t_s(va_list valist)
  * @valist: paramater input
  * Return: print %
  */
-int op_t_percent(va_list valist);
+int op_t_percent(va_list valist)
 {
-	char i = valist;
+	(void) valist;
 
-	i += _putchar('%');
-	return (i);
+	_putchar('%');
+	return (1);
 }
