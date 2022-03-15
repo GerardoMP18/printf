@@ -11,7 +11,7 @@ int op_t_c(va_list valist)
 
 	c = va_arg(valist, int);
 	_putchar(c);
-	return (c);
+	return (1);
 }
 /**
  * op_t_s - Character input (s)
@@ -22,17 +22,16 @@ int op_t_s(va_list valist)
 {
 	char *p;
 	int i = 0;
-	char resultado;
 
 	p = va_arg(valist, char *);
 
 	while (p[i] != '\0')
 	{
-		resultado += _putchar(p[i]);
+		_putchar(p[i]);
 		i++;
 	}
 
-	return (resultado);
+	return (i);
 }
 /**
  * op_t_percent - Character input (%)
