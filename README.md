@@ -43,7 +43,7 @@ Write a function that produces output according to a format.
 - You don’t have to handle precision
 - You don’t have to handle the length modifiers
 
-#### [1. Education is when you read the fine print. Experience is what you get if you don't](./_printf.c)
+### [1. Education is when you read the fine print. Experience is what you get if you don't](./_printf.c)
  Handle the following conversion specifiers:
 
 - d
@@ -53,7 +53,7 @@ Write a function that produces output according to a format.
 - You don’t have to handle precision
 - You don’t have to handle the length modifiers
 
-#### [2. Just because it's in print doesn't mean it's the gospel](./_printf.c)
+### [2. Just because it's in print doesn't mean it's the gospel](./_printf.c)
 Create a man page for your function.
 
 ## Authors
