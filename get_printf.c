@@ -15,6 +15,8 @@ int (*get_op_print(const char *format))(va_list)
 		{"c", op_t_c},
 		{"s", op_t_s},
 		{"%", op_t_percent},
+		{"d", op_t_di},
+		{"i", op_t_di},
 		{NULL, NULL}
 	};
 
