@@ -23,6 +23,7 @@ int _printf(const char *format, ...);
 int op_t_c(va_list valist);
 int op_t_s(va_list valist);
 int op_t_percent(va_list valist);
+int op_t_di(va_list valist);
 
 int (*get_op_print(const char *format))(va_list);
 #endif
