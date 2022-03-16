@@ -2,7 +2,7 @@
 
 /**
  * op_t_c - Character input (c)
- * @valist: parameter input
+ * @valist: parameter input character
  * Return: print requested character
  */
 int op_t_c(va_list valist)
