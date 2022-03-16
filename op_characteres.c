@@ -25,6 +25,9 @@ int op_t_s(va_list valist)
 
 	p = va_arg(valist, char *);
 
+	if (p == NULL)
+		p = "(null)";
+
 	while (p[i] != '\0')
 	{
 		_putchar(p[i]);
