@@ -19,11 +19,6 @@ integers (d), integers (i), etc.
 |    %s    | Character string (terminated in '\0')    |
 |  %d, %i  | Signed decimal conversion of an integer  |
 |    %%    | Prints the % symbol                      |
-|    %u    | Unsigned decimal conversion of an integer| 
-|    %o    | Unsigned octal conversion of an integer  | 
-|  %x, %X  | Unsigned hex conversion                  | 
-|    %p    | Memory address (pointer)                 | 
-|    %b    | Unsigned binary                          | 
 
 ## Tasks
 
@@ -55,6 +50,42 @@ Write a function that produces output according to a format.
 
 #### [2. Just because it's in print doesn't mean it's the gospel](./_printf.c)
 Create a man page for your function.
+
+## Examples
+```c
+_printf("Character:[%c]\n", 'H');
+Output -> Character:[H]
+```
+```c
+_printf("String:[%s]\n", "I am a string !");
+Output -> String:[I am a string !]
+```
+```c
+int main(void)
+{
+    int len;
+    len = _printf("Percent:[%%]\n");
+    _printf("Len:[%d]\n", len);
+    return (0);
+}
+Output -> Percent:[%]
+Output -> Len:[12]
+```
+```c
+int main(void)
+{
+    int len;
+    len = _printf("Let's try to printf a simple sentence.\n");
+    _printf("Length:[%d, %i]\n", len, len);
+    return (0);
+}
+Output -> : Let s try to printf a simple sentence.
+Output -> Length:[39, 39]
+```
+```c
+_printf("Negative:[%d]\n", -762534);
+Output -> : Negative:[-762534]
+```
 
 ## Authors
 
