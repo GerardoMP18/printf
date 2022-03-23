@@ -2,7 +2,7 @@
 ![Logo](https://blog.holbertonschool.com/wp-content/uploads/2021/06/Fichier-13.png)
 
 
-# 0x11. C - printf
+# _printf()
 
 This project recreates a printf function will print out formats of,
 type char (c), string (s), percentage symbol (%), signed decimal
