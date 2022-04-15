@@ -16,7 +16,7 @@ int op_t_reversed(va_list valist)
 
 	for (i = count - 1; i >= 0; i--)
 	{
-		putchar(s[i]);
+		_putchar(s[i]);
 	}
 	return (count);
 }
