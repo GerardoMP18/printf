@@ -19,6 +19,7 @@ int (*get_op_print(const char *format))(va_list)
 		{"i", op_t_di},
 		{"b", op_t_binary},
 		{"r", op_t_reversed},
+		{"R", rot_13},
 		{NULL, NULL}
 	};
 
