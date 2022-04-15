@@ -27,6 +27,6 @@ int op_t_di(va_list valist);
 int op_t_binary(va_list valist);
 int binary_recursive(unsigned int n);
 int op_t_reversed(va_list valist);
-int rot_13(va_list args);
+int rot_13(va_list valist);
 int (*get_op_print(const char *format))(va_list);
 #endif
